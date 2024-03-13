@@ -1,3 +1,109 @@
-body {
- background-image: url("wizzard.JFIF");
+* {
+ margin: 0px;
+ padding: 0px;
 }
+
+/*Boven stuk*/
+header {
+ background: url('../images/stary header.png');
+ height: 150px;
+}
+
+header h1{ /*titel van pagina ding*/
+ color: #ffffff;
+}
+
+/*de zoek balk*/
+ul{ /*De balk*/
+  background: #9DFF00;
+  padding: 10px;
+}
+
+ul li{  /*blokjes waar de link in staat*/
+  display: inline-block;
+  background: #190B33;
+  padding: 10px;
+}
+
+ul li:hover{
+  background-color: #ffffff;
+}
+
+ul li a{ /*het linkje zelf*/
+  color: #9DFF00; 
+}
+
+
+/*je weet wat de body is*/
+body {
+ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+ background-color: #190B33;
+}
+
+
+section{ /*houd de text een beetje van de randen af*/
+  padding: 5px;
+  margin: 10px;
+}
+
+section article { /*algemene opmaak van de tekst blokken*/
+  border: 3px;
+  border-style: solid;
+  border-color: #9DFF00;
+  margin: 5px 10px 5px 10px;
+  padding: 10px;
+  background: #190B33;
+}
+
+p{
+  color: #ffffff;
+}
+
+article h2{
+  color: #ffffff;
+}
+
+
+/*Afbeeldingen*/
+
+#web{
+ margin-top: 20px;
+ width: 40%;
+ float: right;
+
+}
+
+#huis{
+  margin-top: 20px;
+  width: 50%;
+}
+
+#walkin{
+  width: 30%;
+}
+
+#pix{
+  width: 25%;
+  float: right;
+  position: relative;
+    right:70px;
+}
+
+/*video's*/
+video{
+  margin-top: 20px;
+  width: 50%;
+}
+
+footer h6 { /*zet copiright in midden*/
+  text-align: center;
+  font-weight: normal;
+  font-size: 90%;
+}
+
+/*houd het goed*/
+.wrapper {
+  margin: 0 auto 0 auto;
+  width: 960px;
+}
+
