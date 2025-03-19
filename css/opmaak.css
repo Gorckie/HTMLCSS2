@@ -5,7 +5,7 @@
 
 /*Boven stuk*/
 header {
- background: url('../images/stary header.png');
+ background: url('../images/stars.jpg');
  height: 150px;
 }
 
@@ -37,7 +37,7 @@ ul li a{ /*het linkje zelf*/
 /*je weet wat de body is*/
 body {
  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
- background-color: #190B33;
+ background-image: url('../images/stars.jpg');
 }
 
 
